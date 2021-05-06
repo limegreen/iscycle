@@ -86,29 +86,30 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>James Green</title>
-
-  <meta property="description" itemprop="description" content="Welcome to the website. I hope you enjoy it!"/>
+  <title>James Green: Audio</title>
 
 
+
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-06-04"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-06-04"/>
+  <meta name="article:author" content="James Green"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="James Green"/>
+  <meta property="og:title" content="James Green: Audio"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Welcome to the website. I hope you enjoy it!"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="James Green"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="James Green"/>
-  <meta property="twitter:description" content="Welcome to the website. I hope you enjoy it!"/>
+  <meta property="twitter:title" content="James Green: Audio"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["James Green"]},{"type":"character","attributes":{},"value":["Welcome to the website. I hope you enjoy it!\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Audio"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["James Green"]}]}]},{"type":"character","attributes":{},"value":["06/04/2021"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -6081,7 +6082,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"James Green","description":"Welcome to the website. I hope you enjoy it!","authors":[]}
+{"title":"Audio","authors":[{"author":"James Green","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-06-04T00:00:00.000+01:00","citationText":"Green, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -6104,14 +6105,28 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>James Green</h1>
+<h1>Audio</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Welcome to the website. I hope you enjoy it!</p></p>
+
 </div>
 
+<div class="d-byline">
+  
+  James Green
+  
+<br/>06/04/2021
+</div>
 
 <div class="d-article">
+<h2 id="audio-tweaking-in-shot-cut-obs">Audio-tweaking in Shot-cut &amp; OBS</h2>
+<p>Based on this video, I try and achieve the following <a href="https://youtu.be/dQCB72S64L4" class="uri">https://youtu.be/dQCB72S64L4</a></p>
+<ol type="1">
+<li>Equalization (High to about 6dB, Low to about 4 dB)</li>
+<li>Amplify (Default values)</li>
+<li>Compressor (-30dB, -50dB, 5:1, 0,10secs, 1.0secs)</li>
+<li>Amplify (-3.00dB)</li>
+</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
