@@ -1,0 +1,37 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About James",
+      "description": "Health, data, teaching, coffee, wine, random.",
+      "author": [],
+      "contents": "\r\nPhD 2004, University of Otago\r\nMy name is not A. James Green, but James A. Green. Having a super common name (Hi other person called James A. Green who is also a psychology PhD!!), I needed to find a unique handle, and theJamesGreen seemed a bit pretentious. So I’m just aJamesGreen, one of many!\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-15T00:27:23+01:00"
+    },
+    {
+      "path": "index.html",
+      "title": "James Green",
+      "description": "Health, data, teaching, coffee, wine, random.\n\nI am a researcher and teacher at the School of Allied Health, University of \nLimerick. I am also a member of the Physical Activity *for* Health Research \nCluster at the Health Research Institute. Previously, I was based at the \nUniversity of Otago in New Zealand. \n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-15T00:27:25+01:00"
+    },
+    {
+      "path": "research.html",
+      "title": "Research",
+      "description": "Health, methodology, education, wine, random.",
+      "author": [],
+      "contents": "\r\nHealth Psychology\r\nMethodology\r\nEducation\r\nWine\r\nRandom\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-15T00:27:26+01:00"
+    },
+    {
+      "path": "teaching.html",
+      "title": "Teaching",
+      "description": "Research methods, health psychology.",
+      "author": [],
+      "contents": "\r\nTeaching Qualification\r\nAnticipated in 2021 — Master of Arts in Teaching, Learning & Scholarship (University of Limerick)\r\nCurrent teaching\r\nI teach pre-registration students of physiotherapy, speech language therapy, occupational therapy and human nutrition/dietetics. On graduation, these students will go on to work in those professions\r\nI am also the Course Director for a post-registation course, MSc in Advanced Healthcare Practice, which is targetted at practising healthcare professionals.\r\n\r\n\r\n\r\nPrevious teaching\r\nBetween 2006 and 2018, I taught pre-registration pharmacy students on health behaviour change, communication skills, hauora maori/Maori health and a little bit of research methods.\r\nI also taught, and was the course leader for a postgraduate research methods course for students from a range of healthcare backgrounds\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-15T00:27:27+01:00"
+    }
+  ],
+  "collections": []
+}

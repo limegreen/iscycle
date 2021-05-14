@@ -1,0 +1,32 @@
+---
+title: "Teaching"
+description: |
+  Research methods, health psychology.
+---
+
+## Teaching Qualification
+
+Anticipated in 2021 — Master of Arts in Teaching, Learning & Scholarship (University of Limerick)
+
+## Current teaching
+
+I teach pre-registration students of physiotherapy, speech language therapy, 
+occupational therapy and human nutrition/dietetics. On graduation, these students
+will go on to work in those professions
+
+I am also the Course Director for a post-registation course, MSc in Advanced
+Healthcare Practice, which is targetted at practising healthcare professionals. 
+
+
+```{r, echo = FALSE}
+# * ES6002/PR4032 Research Methods in Education and Health Sciences
+```
+
+## Previous teaching
+
+Between 2006 and 2018, I taught pre-registration pharmacy students on health 
+behaviour change, communication skills, hauora maori/Maori health and a little 
+bit of research methods.
+
+I also taught, and was the course leader for a postgraduate research methods 
+course for students from a range of healthcare backgrounds 

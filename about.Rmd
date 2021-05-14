@@ -1,10 +1,13 @@
 ---
-title: "About this site"
+title: "About James"
 description: |
-  Some additional details about the website
+  Health, data, teaching, coffee, wine, random.
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+* PhD 2004, University of Otago
 
+My name is not A. James Green, but James A. Green. Having a super common name
+(Hi other person called 
+<a href = "https://psych.uconn.edu/person/james-green/">James A. Green</a> 
+who is also a psychology PhD!!), I needed to find a unique handle, and 
+theJamesGreen seemed a bit pretentious. So I'm just aJamesGreen, one of many!

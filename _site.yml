@@ -1,6 +1,6 @@
 name: "ajamesgreen"
 title: "James Green"
-theme: style.css
+theme: jstyle2.css
 description: |
   James Green
 output_dir: "public"
@@ -8,8 +8,15 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Research"
+      href: research.html
+    - text: "About me"
       href: about.html
-    - text: "Audio"
-      href: audio.html
+base_url: https://ajamesgreen.gitlab.io/
+repository_url: https://gitlab.com/ajamesgreen/ajamesgreen.gitlab.io
+creative_commons: CC BY
+twitter:
+  site: "@ajamesgreen"
 output: distill::distill_article
