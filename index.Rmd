@@ -1,18 +1,32 @@
 ---
 title: "James Green"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Health, data, teaching, coffee, wine, random.
+  
+  I am a researcher and teacher at the School of Allied Health, University of 
+  Limerick. I am also a member of the Physical Activity *for* Health Research 
+  Cluster at the Health Research Institute. Previously, I was based at the 
+  University of Otago in New Zealand. 
+links:
+  - label: Twitter
+    url: "https://twitter.com/ajamesgreen"
+  - label: Google Scholar
+    url: "https://scholar.google.com/citations?user=jsMp1YUAAAAJ&hl=en"
+  - label: '<i class="fab fa-twitter fa-3x"></i>'
+    url: "https://twitter.com/harryfishr"
+  - label: '<i class="fab fa-github fa-3x"></i>'
+    url: "https://github.com/hfshr"
+  - label: '<i class="far fa-envelope fa-3x"></i>'
+    url: "mailto:harryfisher21@email.com"
+  - label: '<i class="fab fa-linkedin-in fa-3x"></i>'
+    url: "https://www.linkedin.com/in/drharryfisher/"
 site: distill::distill_website
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
+```{r, echo=FALSE, out.width="40%", fig.align='center'}
+knitr::include_graphics("image/james.jpg")
 ```
+
+
+
 

@@ -1,0 +1,16 @@
+---
+title: "Research"
+description: |
+  Health, methodology, education, wine, random.
+---
+
+## Health Psychology
+
+## Methodology
+
+## Education
+
+## Wine
+
+## Random
+
