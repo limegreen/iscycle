@@ -23,10 +23,15 @@ links:
 site: distill::distill_website
 ---
 
-```{r, echo=FALSE, out.width="40%", fig.align='center'}
+
+
+<div class="full-width">
+
+```{r, echo=FALSE, out.width="40%", fig.align='left'}
 knitr::include_graphics("image/james.jpg")
 ```
 
+</div>
 
-
+<aside>bob is cool</aside>
 
