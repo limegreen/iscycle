@@ -8,30 +8,46 @@ description: |
   Cluster at the Health Research Institute. Previously, I was based at the 
   University of Otago in New Zealand. 
 links:
-  - label: Twitter
+  - label: '<i class="fab fa-twitter"></i> Twitter'
     url: "https://twitter.com/ajamesgreen"
   - label: Google Scholar
     url: "https://scholar.google.com/citations?user=jsMp1YUAAAAJ&hl=en"
-  - label: '<i class="fab fa-twitter fa-3x"></i>'
-    url: "https://twitter.com/harryfishr"
-  - label: '<i class="fab fa-github fa-3x"></i>'
-    url: "https://github.com/hfshr"
-  - label: '<i class="far fa-envelope fa-3x"></i>'
-    url: "mailto:harryfisher21@email.com"
-  - label: '<i class="fab fa-linkedin-in fa-3x"></i>'
-    url: "https://www.linkedin.com/in/drharryfisher/"
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: "https://github.com/limegreen"
+  - label: '<i class="fab fa-linkedin"></i> LinkedIn'
+    url: "https://www.linkedin.com/in/ajamesgreen/"
 site: distill::distill_website
+output:
+  postcards::trestles
 ---
 
 
-
-<div class="full-width">
-
-```{r, echo=FALSE, out.width="40%", fig.align='left'}
-knitr::include_graphics("image/james.jpg")
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(metathis)
+meta() %>%
+  meta_description(
+    "The personal website of James Green"
+  ) %>%
+  meta_name("gitlab-repo" = "ajamesgreen/ajamesgreen.gitlab.io") %>%
+  meta_viewport() %>%
+  meta_social(
+    title = "James Green",
+    url = "https://ajamesgreen.gitlab.io/",
+    og_type = "website",
+    og_author = c("James Green"),
+    twitter_card_type = "summary",
+    twitter_creator = "@ajamesgreen"
+  )
 ```
 
-</div>
 
-<aside>bob is cool</aside>
+## Bio
+  I am a researcher and teacher at the School of Allied Health, University of 
+  Limerick. I am also a member of the Physical Activity *for* Health Research 
+  Cluster at the Health Research Institute. Previously, I was based at the 
+  University of Otago in Aotearoa/New Zealand. 
+
+<!--<aside>bob is cool</aside>-->
+
+<aside>I'm a scientist. Sometimes I get *distracted*</aside>
 

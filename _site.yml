@@ -1,6 +1,6 @@
 name: "ajamesgreen"
 title: "James Green"
-theme: jstyle2.css
+theme: postcards.css
 description: |
   James Green
 output_dir: "public"
