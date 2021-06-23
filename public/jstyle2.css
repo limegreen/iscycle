@@ -95,3 +95,23 @@ d-appendix {
   --text-size:        1.0em;
 }
 }
+
+/* styling for icon-link buttons (see distilltools::icon_link()) */
+.icon-link {
+    background-color: transparent;
+    color: #D4006A;
+    border: 1px solid;
+    border-color: #D4006A;
+    padding: 5px .4rem 5px .4rem;
+    /*margin: 4px;*/
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    border-radius: 5px; /* Rounded edges */
+}
+
+.icon-link:hover {
+    background-color: #D4006A;
+    border-color: #D4006A;
+    color: white;
+}

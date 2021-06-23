@@ -2,7 +2,11 @@
 title: "James Green"
 image: "image/james.jpg"
 description: |
+<<<<<<< HEAD
     Health, Data, Education, Wine, Coffee, Random
+=======
+    Health, Data
+>>>>>>> 6a34cba4f19cb044ecb2b9da42aa9fee757cf1c5
 twitter:
   creator: "@ajamesgreen"
   site: "@ajamesgreen"
@@ -31,8 +35,7 @@ site: distill::distill_website
 output:
   postcards::trestles
 ---
-
-
+ 
 ```{r setup, message=FALSE, warning=FALSE, include=FALSE}
 library(metathis)
 meta() %>%
@@ -53,6 +56,7 @@ meta() %>%
 
 
 I am a researcher and teacher at the [School of Allied Health](https://www.ul.ie/schoolalliedhealth/), [University of   Limerick](https://www.ul.ie). I am also a member of the [Physical Activity *for* Health](https://www.ul.ie/hri/physical-activity-health-pafh) Research Cluster at the Health Research Institute. Previously, I was based at the [University of Otago](https://www.otago.ac.nz) in Aotearoa/New Zealand. 
+<<<<<<< HEAD
 
 My interests are interdisciplinary and broad, but can be grouped into:  
 
@@ -71,4 +75,24 @@ and have recently published a paper promoting the use count regression (Poisson,
 
 If you want to dig in, probably check out my [Google Scholar profile](https://scholar.google.com/citations?user=jsMp1YUAAAAJ&hl=en)
 
+=======
+
+My interests are interdisciplinary and broad, but can be grouped into:  
+
+* __Health__ — I apply psychology to questions in health. A lot of what I do is quite culturally located, trying to understand health behaviour in different locations: Indonesia, Pakistan, New Zealand, Ireland. Recent specific projects include looking at the use of various substances for improving academic performance, using n-of-1 interventions to increase physical activity, and publication bias in health fields. 
+
+* __Data/Methods__ — My very first research project in my third year of university used multivariate 
+statistics, and I was teaching assistant for a third year statistics paper in the first year of my PhD, and have been teaching statistics/research methods on and off ever since. I support openness and transparency,
+and have recently published a paper promoting the use count regression (Poisson, negative binomial etc.). I am also very interested in publication bias.  
+
+* __Education__ — Having spent many years doing admissions for health professional programmes, I've done some work on admissions processes. I also recently completed a Masters in Teaching & Learning, with my dissertation looking at increasing student engagement with research methods courses.
+
+* __Wine__ — I don't really do this much any more, but historically, I've done quite a bit looking at perception of flavour in wine, mostly Sauvignon blanc.  
+
+* __Coffee__ — Just kidding. Even my interests are not that broad. I do drink a lot of coffee, and we roast our own green beans.  
+* __Random__ — There could be more sub-headings here, but along the way, I've been involved on lots of other projects. Some of my much older/original work was in sociolinguistics, and there are lots of things I've got involved in with friends.  
+
+If you want to dig in, probably check out my [Google Scholar profile](https://scholar.google.com/citations?user=jsMp1YUAAAAJ&hl=en)
+
+>>>>>>> 6a34cba4f19cb044ecb2b9da42aa9fee757cf1c5
 <!-- health ∙ data ∙ teaching ∙ coffee ∙ wine ∙ random</aside> -->
