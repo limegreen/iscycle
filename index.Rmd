@@ -1,7 +1,8 @@
 ---
 title: "James Green"
+image: "image/james.jpg"
 description: |
-  health | data | teaching | coffee | wine | random
+    Health, Data
 twitter:
   creator: "@ajamesgreen"
   site: "@ajamesgreen"
@@ -15,8 +16,10 @@ links:
   - label: '<i class="fab fa-linkedin"></i> LinkedIn'
     url: "https://www.linkedin.com/in/ajamesgreen/"
 site: distill::distill_website
+output:
+  postcards::trestles
 ---
-
+ 
 ```{r setup, message=FALSE, warning=FALSE, include=FALSE}
 library(metathis)
 meta() %>%
@@ -35,21 +38,12 @@ meta() %>%
   )
 ```
 
-<div class="full-width">
 
-```{r, echo=FALSE, out.width="40%", fig.align='left'}
-knitr::include_graphics("image/james.jpg")
-```
-
-</div>
-
+## Bio
   I am a researcher and teacher at the School of Allied Health, University of 
   Limerick. I am also a member of the Physical Activity *for* Health Research 
   Cluster at the Health Research Institute. Previously, I was based at the 
   University of Otago in Aotearoa/New Zealand. 
 
-<!--<aside>bob is cool</aside>-->
 
-<aside>I'm a scientist. Sometimes I get *distracted*</aside>
-
-
+<aside>health ∙ data ∙ teaching ∙ coffee ∙ wine ∙ random</aside>
