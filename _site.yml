@@ -11,12 +11,10 @@ navbar:
 base_url: https://ajamesgreen.gitlab.io/
 twitter:
   site: "@ajamesgreen"
-<<<<<<< HEAD
+repository_url: https://gitlab.com/ajamesgreen/ajamesgreen.gitlab.io
+creative_commons: CC BY
 output:
   distill::distill_article:
     includes:
       in_header:
       - header.html
-=======
-output: distill::distill_article
->>>>>>> 6a34cba4f19cb044ecb2b9da42aa9fee757cf1c5

@@ -1,7 +1,5 @@
 ---
 title: "About James"
-description: |
-  Health, data, teaching, coffee, wine, random.
 ---
 
 * PhD 2004, University of Otago
