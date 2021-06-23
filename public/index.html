@@ -623,6 +623,7 @@
 
           <!--/radix_placeholder_navigation_in_header-->
           <!--radix_placeholder_site_in_header-->
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
           <!--/radix_placeholder_site_in_header-->
           
           <style type="text/css">
@@ -721,7 +722,7 @@
           /* Optional: embed custom fonts here with `@import`          */
           /* This must remain at the top of this file.                 */
 
-
+          @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
           html {
             /*-- Main font sizes --*/
@@ -737,10 +738,10 @@
             --aside-color:     rgba(0, 0, 0, 0.6);
             --fig-cap-color:   rgba(0, 0, 0, 0.6);
             /*-- Specify custom fonts ~~~ must be imported above   --*/
-            --heading-font:    sans-serif;
+            --heading-font:    'Open Sans', sans-serif;
             --mono-font:       monospace;
-            --body-font:       sans-serif;
-            --navbar-font:     sans-serif;  /* websites + blogs only */
+            --body-font:       'Open Sans', sans-serif;
+            --navbar-font:     'Open Sans', sans-serif;  /* websites + blogs only */
           }
 
           /*-- ARTICLE METADATA --*/
@@ -770,10 +771,10 @@
 
           .distill-site-header {
             --title-size:       18px;
-            --text-color:       rgba(255, 255, 255, 0.8);
+            --text-color:       rgba(255, 255, 255, 1.0);
             --text-size:        15px;
             --hover-color:      white;
-            --bkgd-color:       #0F2E3D;
+            --bkgd-color:       #009400;
           }
 
           .distill-site-footer {
@@ -785,7 +786,44 @@
 
           /*-- Additional custom styles --*/
           /* Add any additional CSS rules below                      */
-          </style>
+
+          /*-- James specific bits --*/
+          .full-width {
+            --width: 100%;
+            --bkgd-color: #009400;
+          }
+
+          .aside {
+            --width:          30%;
+            --padding-left:   15px;
+            --margin-left:    15px;
+            --float:          left;
+          }
+
+          .h1 {
+            --text-size:        1.0em;
+          }
+          }
+
+          /* styling for icon-link buttons (see distilltools::icon_link()) */
+          .icon-link {
+              background-color: transparent;
+              color: #D4006A;
+              border: 1px solid;
+              border-color: #D4006A;
+              padding: 5px .4rem 5px .4rem;
+              /*margin: 4px;*/
+              margin-top: 4px;
+              margin-right: 8px;
+              margin-bottom: 4px;
+              border-radius: 5px; /* Rounded edges */
+          }
+
+          .icon-link:hover {
+              background-color: #D4006A;
+              border-color: #D4006A;
+              color: white;
+          }</style>
           <style type="text/css">
           /* base style */
 
@@ -969,9 +1007,6 @@
           </div>
           <div class="nav-right">
           <a href="index.html">Home</a>
-          <a href="teaching.html">Teaching</a>
-          <a href="research.html">Research</a>
-          <a href="about.html">About me</a>
           <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
           </div>
           </nav>
@@ -985,7 +1020,7 @@
         <div class="d-flex flex-column col-5 align-items-center text-center align-self-center">
           <div class="mx-auto text-center">
             <div class="p-3">
-              <img src= style="height:15rem" class="rounded">
+              <img src=image/james.jpg style="height:15rem" class="rounded">
             </div>
             <div class="p-2">
               <h1>James Green</h1>
@@ -1004,14 +1039,42 @@
                                     <li class="list-inline-item">
                     <a href=https://scholar.google.com/citations?user=jsMp1YUAAAAJ&amp;hl=en>
                       <button type="button" class="btn btn-outline-dark mb-2">
-                        Google Scholar
+                        <i class="ai ai-google-scholar"></i> Publications
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://gitlab.com/ajamesgreen>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <i class="fab fa-gitlab"></i> GitLab (code)
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://osf.io/d2key>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <i class="ai ai-osf"></i> OSF (data)
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://orcid.org/0000-0002-7309-0751>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <i class="ai ai-orcid"></i> Orcid (pubs)
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://publons.com/author/483697/james-a-green>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <i class="ai ai-publons"></i> Publons (peer review)
                       </button>
                     </a>
                   </li>
                                     <li class="list-inline-item">
                     <a href=https://github.com/limegreen>
                       <button type="button" class="btn btn-outline-dark mb-2">
-                        <i class="fab fa-github"></i> GitHub
+                        <i class="fab fa-github"></i> Github (old code)
                       </button>
                     </a>
                   </li>
@@ -1019,6 +1082,20 @@
                     <a href=https://www.linkedin.com/in/ajamesgreen/>
                       <button type="button" class="btn btn-outline-dark mb-2">
                         <i class="fab fa-linkedin"></i> LinkedIn
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=http://www.researcherid.com/rid/A-8615-2008>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <i class="ai ai-researcherid"></i> ResearcherID
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=http://www.scopus.com/authid/detail.url?authorId=55137755900>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <i class="ai ai-scopus"></i> Scopus
                       </button>
                     </a>
                   </li>
@@ -1030,14 +1107,19 @@
         <div class="d-flex flex-column vh-100 border-left"></div>
         <div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;">
           <div class="my-5" id="content">
-            <div id="bio" class="section level2">
-            <h2>Bio</h2>
-            <p>I am a researcher and teacher at the School of Allied Health, University of Limerick. I am also a member of the Physical Activity <em>for</em> Health Research Cluster at the Health Research Institute. Previously, I was based at the University of Otago in Aotearoa/New Zealand.</p>
-            <!--<aside>bob is cool</aside>-->
-            <aside>
-            I’m a scientist. Sometimes I get <em>distracted</em>
-            </aside>
-            </div>
+            <p>I am a researcher and teacher at the <a href="https://www.ul.ie/schoolalliedhealth/">School of Allied Health</a>, <a href="https://www.ul.ie">University of Limerick</a>. I am also a member of the <a href="https://www.ul.ie/hri/physical-activity-health-pafh">Physical Activity <em>for</em> Health</a> Research Cluster at the Health Research Institute. Previously, I was based at the <a href="https://www.otago.ac.nz">University of Otago</a> in Aotearoa/New Zealand.</p>
+            <p>My interests are interdisciplinary and broad, but can be grouped into:</p>
+            <ul>
+            <li><p><strong>Health</strong> — I apply psychology to questions in health. A lot of what I do is quite culturally located, trying to understand health behaviour in different locations: Indonesia, Pakistan, New Zealand, Ireland. Recent specific projects include looking at the use of various substances for improving academic performance, using n-of-1 interventions to increase physical activity, and publication bias in health fields.</p></li>
+            <li><p><strong>Data/Methods</strong> — My very first research project in my third year of university used multivariate statistics, and I was teaching assistant for a third year statistics paper in the first year of my PhD, and have been teaching statistics/research methods on and off ever since. I support openness and transparency, and have recently published a paper promoting the use count regression (Poisson, negative binomial etc.). I am also very interested in publication bias.</p></li>
+            <li><p><strong>Education</strong> — Having spent many years doing admissions for health professional programmes, I’ve done some work on admissions processes. I also recently completed a Masters in Teaching &amp; Learning, with my dissertation looking at increasing student engagement with research methods courses.</p></li>
+            <li><p><strong>Wine</strong> — I don’t really do this much any more, but historically, I’ve done quite a bit looking at perception of flavour in wine, mostly Sauvignon blanc.</p></li>
+            <li><p><strong>Coffee</strong> — Just kidding. Even my interests are not that broad. I do drink a lot of coffee, and we roast our own green beans.<br />
+            </p></li>
+            <li><p><strong>Random</strong> — There could be more sub-headings here, but along the way, I’ve been involved on lots of other projects. Some of my much older/original work was in sociolinguistics, and there are lots of things I’ve got involved in with friends.</p></li>
+            </ul>
+            <p>If you want to dig in, probably check out my <a href="https://scholar.google.com/citations?user=jsMp1YUAAAAJ&amp;hl=en">Google Scholar profile</a></p>
+            <!-- health ∙ data ∙ teaching ∙ coffee ∙ wine ∙ random</aside> -->
           </div>
         </div>
       </div>
@@ -1048,7 +1130,7 @@
         <div class="d-flex flex-col">
           <div class="mx-auto">
             <div class="p-3 mt-3 text-center">
-              <img src= style="height:15rem" class="rounded">
+              <img src=image/james.jpg style="height:15rem" class="rounded">
             </div>
             <div class="p-2 text-center">
               <h1>James Green</h1>
@@ -1065,12 +1147,32 @@
                   </a>
                                     <a href=https://scholar.google.com/citations?user=jsMp1YUAAAAJ&amp;hl=en>
                     <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      Google Scholar
+                      <i class="ai ai-google-scholar"></i> Publications
+                    </button>
+                  </a>
+                                    <a href=https://gitlab.com/ajamesgreen>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <i class="fab fa-gitlab"></i> GitLab (code)
+                    </button>
+                  </a>
+                                    <a href=https://osf.io/d2key>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <i class="ai ai-osf"></i> OSF (data)
+                    </button>
+                  </a>
+                                    <a href=https://orcid.org/0000-0002-7309-0751>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <i class="ai ai-orcid"></i> Orcid (pubs)
+                    </button>
+                  </a>
+                                    <a href=https://publons.com/author/483697/james-a-green>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <i class="ai ai-publons"></i> Publons (peer review)
                     </button>
                   </a>
                                     <a href=https://github.com/limegreen>
                     <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      <i class="fab fa-github"></i> GitHub
+                      <i class="fab fa-github"></i> Github (old code)
                     </button>
                   </a>
                                     <a href=https://www.linkedin.com/in/ajamesgreen/>
@@ -1078,18 +1180,33 @@
                       <i class="fab fa-linkedin"></i> LinkedIn
                     </button>
                   </a>
+                                    <a href=http://www.researcherid.com/rid/A-8615-2008>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <i class="ai ai-researcherid"></i> ResearcherID
+                    </button>
+                  </a>
+                                    <a href=http://www.scopus.com/authid/detail.url?authorId=55137755900>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <i class="ai ai-scopus"></i> Scopus
+                    </button>
+                  </a>
                                   </div>
               </div>
             </div>
             <div class="p pt-4 px-5">
-              <div id="bio" class="section level2">
-              <h2>Bio</h2>
-              <p>I am a researcher and teacher at the School of Allied Health, University of Limerick. I am also a member of the Physical Activity <em>for</em> Health Research Cluster at the Health Research Institute. Previously, I was based at the University of Otago in Aotearoa/New Zealand.</p>
-              <!--<aside>bob is cool</aside>-->
-              <aside>
-              I’m a scientist. Sometimes I get <em>distracted</em>
-              </aside>
-              </div>
+              <p>I am a researcher and teacher at the <a href="https://www.ul.ie/schoolalliedhealth/">School of Allied Health</a>, <a href="https://www.ul.ie">University of Limerick</a>. I am also a member of the <a href="https://www.ul.ie/hri/physical-activity-health-pafh">Physical Activity <em>for</em> Health</a> Research Cluster at the Health Research Institute. Previously, I was based at the <a href="https://www.otago.ac.nz">University of Otago</a> in Aotearoa/New Zealand.</p>
+              <p>My interests are interdisciplinary and broad, but can be grouped into:</p>
+              <ul>
+              <li><p><strong>Health</strong> — I apply psychology to questions in health. A lot of what I do is quite culturally located, trying to understand health behaviour in different locations: Indonesia, Pakistan, New Zealand, Ireland. Recent specific projects include looking at the use of various substances for improving academic performance, using n-of-1 interventions to increase physical activity, and publication bias in health fields.</p></li>
+              <li><p><strong>Data/Methods</strong> — My very first research project in my third year of university used multivariate statistics, and I was teaching assistant for a third year statistics paper in the first year of my PhD, and have been teaching statistics/research methods on and off ever since. I support openness and transparency, and have recently published a paper promoting the use count regression (Poisson, negative binomial etc.). I am also very interested in publication bias.</p></li>
+              <li><p><strong>Education</strong> — Having spent many years doing admissions for health professional programmes, I’ve done some work on admissions processes. I also recently completed a Masters in Teaching &amp; Learning, with my dissertation looking at increasing student engagement with research methods courses.</p></li>
+              <li><p><strong>Wine</strong> — I don’t really do this much any more, but historically, I’ve done quite a bit looking at perception of flavour in wine, mostly Sauvignon blanc.</p></li>
+              <li><p><strong>Coffee</strong> — Just kidding. Even my interests are not that broad. I do drink a lot of coffee, and we roast our own green beans.<br />
+              </p></li>
+              <li><p><strong>Random</strong> — There could be more sub-headings here, but along the way, I’ve been involved on lots of other projects. Some of my much older/original work was in sociolinguistics, and there are lots of things I’ve got involved in with friends.</p></li>
+              </ul>
+              <p>If you want to dig in, probably check out my <a href="https://scholar.google.com/citations?user=jsMp1YUAAAAJ&amp;hl=en">Google Scholar profile</a></p>
+              <!-- health ∙ data ∙ teaching ∙ coffee ∙ wine ∙ random</aside> -->
             </div>
         </div>
       </div>
