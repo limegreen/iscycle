@@ -1,5 +1,5 @@
 ---
-title: "About James"
+title: "James Green"
 image: "image/james.jpg"
 description: |
   Health, Data, Education, Wine, Coffee, Random
