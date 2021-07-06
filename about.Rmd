@@ -1,17 +1,16 @@
 ---
-title: "About James"
+title: "About me"
 site: distill::distill_website
 ---
 
 * PhD 2004, University of Otago
 
 My name is not A. James Green, but James A. Green. Having a super common name
-(Hi other person called [James A. Green]("https://psych.uconn.edu/person/james-green/")
+(Hi other person called [James A. Green](https://psych.uconn.edu/person/james-green/)
 who is also a psychology PhD!!), I needed to find a unique handle, and 
 theJamesGreen seemed a bit pretentious. So I'm just aJamesGreen, one of many!
 
-<aside>The other James A. Green at the University of Connecticut is department chair^[Not one of my ambitions!],
-and an expert in infant crying. His first publication was around the year I was born</aside>
+<aside>The other James A. Green at the University of Connecticut is department chair — Not one of my ambitions — and an expert in infant crying. His first publication was around the year I was born</aside>
 
 This page is not a CV, but more a narrative of my career so far.
 
