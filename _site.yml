@@ -10,6 +10,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Accents"
+      href: accents.html
 base_url: https://ajamesgreen.gitlab.io/
 twitter:
   site: "@ajamesgreen"
