@@ -7,6 +7,8 @@ pages:
   artifacts:
     paths:
     - public
+    - public\shared
+    - public\RESULTS
     expire_in: 1 day
   only:
   - master
