@@ -1,31 +1,15 @@
 ---
-title: "James Green"
+title: "Inclusive Sustainable Cycling"
 image: "image/james.jpg"
 description: |
-  Health, Data, Education, Wine, Coffee, Random
+  ISCycle project at UL funded by SEAI
 twitter:
   creator: "@ajamesgreen"
 links:
   - label: '<i class="fab fa-twitter"></i> Twitter'
-    url: "https://twitter.com/ajamesgreen"
-  - label: '<i class="ai ai-google-scholar"></i> Publications'
-    url: "https://scholar.google.com/citations?user=jsMp1YUAAAAJ&hl=en"
+    url: "https://twitter.com/iscycle"
   - label: '<i class="fab fa-gitlab"></i> GitLab (code)'
-    url: "https://gitlab.com/ajamesgreen"
-  - label: '<i class="ai ai-osf"></i> OSF (data)'
-    url: "https://osf.io/d2key"
-  - label: '<i class="ai ai-orcid"></i> Orcid (pubs)'
-    url: "https://orcid.org/0000-0002-7309-0751"
-  - label: '<i class="ai ai-publons"></i> Publons (peer review)'
-    url: "https://publons.com/author/483697/james-a-green"
-  - label: '<i class="fab fa-github"></i> Github (old code)'
-    url: "https://github.com/limegreen"
-  - label: '<i class="fab fa-linkedin"></i> LinkedIn'
-    url: "https://www.linkedin.com/in/ajamesgreen/"
-  - label: '<i class="ai ai-researcherid"></i> ResearcherID'
-    url: "http://www.researcherid.com/rid/A-8615-2008"
-  - label: '<i class="ai ai-scopus"></i> Scopus'
-    url: "http://www.scopus.com/authid/detail.url?authorId=55137755900"
+    url: "https://gitlab.com/iscycle"
 site: distill::distill_website
 output:
   postcards::trestles
@@ -36,13 +20,13 @@ output:
 library(metathis)
 meta() %>%
   meta_description(
-    "The personal website of James Green"
+    "Website for the ISCycle Inclusive Sustainable Ebike Project"
   ) %>%
-  meta_name("gitlab-repo" = "ajamesgreen/ajamesgreen.gitlab.io") %>%
+  meta_name("gitlab-repo" = "iscycle/website") %>%
   meta_viewport() %>%
   meta_social(
     title = "James Green",
-    url = "https://ajamesgreen.gitlab.io/",
+    url = "https://iscycle.gitlab.io/website",
     og_type = "website",
     og_author = c("James Green"),
     twitter_card_type = "summary",
@@ -50,24 +34,6 @@ meta() %>%
   )
 ```
 
+Thank you for your interest in our project. If you are here, you are probably here to sign up for the mailing list:
 
-I am a researcher and teacher at the [School of Allied Health](https://www.ul.ie/schoolalliedhealth/), [University of   Limerick](https://www.ul.ie). I am also a member of the [Physical Activity *for* Health](https://www.ul.ie/hri/physical-activity-health-pafh) Research Cluster at the Health Research Institute. Previously, I was based at the [University of Otago](https://www.otago.ac.nz) in Aotearoa/New Zealand. 
-
-My interests are interdisciplinary and broad, but can be grouped into:  
-  
-  * __Health__ — I apply psychology to questions in health. A lot of what I do is quite culturally located, trying to understand health behaviour in different locations: Indonesia, Pakistan, New Zealand, Ireland. Recent specific projects include looking at the use of various substances for improving academic performance, using n-of-1 interventions to increase physical activity, and publication bias in health fields. 
-
-* __Data/Methods__ — My very first research project in my third year of university used multivariate 
-statistics, and I was teaching assistant for a third year statistics paper in the first year of my PhD, and have been teaching statistics/research methods on and off ever since. I support openness and transparency,
-and have recently published a paper promoting the use count regression (Poisson, negative binomial etc.). I am also very interested in publication bias.  
-
-* __Education__ — Having spent many years doing admissions for health professional programmes, I've done some work on admissions processes. I also recently completed a Masters in Teaching & Learning, with my dissertation looking at increasing student engagement with research methods courses.
-
-* __Wine__ — I don't really do this much any more, but historically, I've done quite a bit looking at perception of flavour in wine, mostly Sauvignon blanc.  
-
-* __Coffee__ — Just kidding. Even my interests are not that broad. I do drink a lot of coffee, and we roast our own green beans.  
-* __Random__ — There could be more sub-headings here, but along the way, I've been involved on lots of other projects. Some of my much older/original work was in sociolinguistics, and there are lots of things I've got involved in with friends.  
-
-If you want to dig in, probably check out my [Google Scholar profile](https://scholar.google.com/citations?user=jsMp1YUAAAAJ&hl=en)
-
-<!-- health ∙ data ∙ teaching ∙ coffee ∙ wine ∙ random</aside> -->
+[Mailing List Signup](https://unioflimerick.eu.qualtrics.com/jfe/form/SV_6EFh8MAzb37GGPA)
