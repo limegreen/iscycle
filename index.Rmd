@@ -1,13 +1,12 @@
 ---
-title: "Inclusive Sustainable Cycling"
-image: "image/james.jpg"
+title: "Inclusive Sustainable Ebikes"
 description: |
   ISCycle project at UL funded by SEAI
 twitter:
   creator: "@ajamesgreen"
 links:
   - label: '<i class="fab fa-twitter"></i> Twitter'
-    url: "https://twitter.com/iscycle"
+    url: "https://twitter.com/ISCycle_ie"
   - label: '<i class="fab fa-gitlab"></i> GitLab (code)'
     url: "https://gitlab.com/iscycle"
 site: distill::distill_website
@@ -34,6 +33,13 @@ meta() %>%
   )
 ```
 
-Thank you for your interest in our project. If you are here, you are probably here to sign up for the mailing list:
+Thank you for your interest in our project. Because it hasn't officially launched yet, there is not much here. If you are here, you are probably here to sign up for the mailing list:
 
 [Mailing List Signup](https://unioflimerick.eu.qualtrics.com/jfe/form/SV_6EFh8MAzb37GGPA)
+
+```{r, echo = FALSE, fig.alt = 'Family cycling in town', fig.align = 'center', out.width = '60%'} 
+knitr::include_graphics("image/mark-stosberg-AGIYSE6-WgE-unsplash.jpg")  
+```
+
+<aside>Photo by <a href="https://unsplash.com/@markstos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mark Stosberg</a> on <a href="https://unsplash.com/@ajamesgreen/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </aside>
